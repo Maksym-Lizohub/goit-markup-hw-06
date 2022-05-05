@@ -750,7 +750,7 @@ body {
 .social-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0px 0px 20px 0px;
@@ -790,4 +790,19 @@ body {
 .social-icon {
   margin: 0;
   padding: 0;
+}
+
+.mail-input-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0px 0px 20px 0px;
+
+  color: var(--primary-white-color);
+}
+
+.mail-input {
+  margin-left: 93px;
 }
