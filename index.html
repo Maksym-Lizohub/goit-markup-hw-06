@@ -542,83 +542,86 @@
       <div class="modal">
         <form class="form js-speaker-form">
           <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-          <div class="form-field">
-            <label for="name" class="form-label">Имя</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder=""
-              autofocus
-              class="modal--input"
-            />
-            <svg class="icon-modal" style="width: 18px; height: 18px">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
-          </div>
+          <ul class="form-list">
+            <li class="form-field">
+              <label for="name" class="form-label">Имя</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder=""
+                autofocus
+                class="modal--input"
+              />
+              <svg class="icon-modal" style="width: 18px; height: 18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </li>
 
-          <div class="form-field">
-            <label for="tel" class="form-label">Телефон</label>
-            <input
-              type="tel"
-              name="tel"
-              id="tel"
-              placeholder=" "
-              class="modal--input"
-            />
-            <svg class="icon-modal" style="width: 18px; height: 18px">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-          </div>
+            <li class="form-field">
+              <label for="tel" class="form-label">Телефон</label>
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder=" "
+                class="modal--input"
+              />
+              <svg class="icon-modal" style="width: 18px; height: 18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </li>
 
-          <div class="form-field">
-            <label for="mail" class="form-label">Почта</label>
-            <input
-              type="email"
-              name="mail"
-              id="mail"
-              placeholder=" "
-              class="modal--input"
-            />
-            <svg class="icon-modal" style="width: 18px; height: 18px">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
-          </div>
-          <div class="form-field form-field__comment">
-            <label for="comment" class="form-label">Коментарий</label>
-            <textarea
-              class="comment"
-              name="comment"
-              id="comment"
-              rows="8"
-              placeholder="Введите текст"
-            ></textarea>
-          </div>
+            <li class="form-field">
+              <label for="mail" class="form-label">Почта</label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder=" "
+                class="modal--input"
+              />
+              <svg class="icon-modal" style="width: 18px; height: 18px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </li>
 
-          <div class="form-field policy">
-            <!-- <svg class="icon-modal-checkbox" style="width: 16px; height: 15px">
+            <li class="form-field">
+              <label for="comment" class="form-label">Коментарий</label>
+              <textarea
+                class="comment"
+                name="comment"
+                id="comment"
+                rows="8"
+                placeholder="Введите текст"
+              ></textarea>
+            </li>
+
+            <li class="form-field policy">
+              <!-- <svg class="icon-modal-checkbox" style="width: 16px; height: 15px">
               <use href="./images/icons.svg#icon-checkbox"></use>
             </svg> -->
 
-            <label class="policy-label">
-              <input
-                class="checkbox"
-                type="checkbox"
-                name="policy"
-                value="true"
-              />
-              <svg
-                class="icon-modal-checkbox"
-                style="width: 16px; height: 15px"
-              >
-                <use href="./images/icons.svg#icon-check"></use>
-              </svg>
-              <span class="policy--text"
-                >Соглашаюсь с рассылкой и принимаю</span
-              >
-              <a href="#" class="policy-link">Условия договора</a>
-            </label>
-          </div>
+              <label class="policy-label">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="policy"
+                  value="true"
+                />
+                <svg
+                  class="icon-modal-checkbox"
+                  style="width: 16px; height: 15px"
+                >
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+                <span class="policy--text"
+                  >Соглашаюсь с рассылкой и принимаю</span
+                >
+                <a href="#" class="policy-link">Условия договора</a>
+              </label>
+            </li>
+          </ul>
 
           <button type="submit" class="modal-button-submit">Отправить</button>
         </form>
